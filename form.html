@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    
+    <title>Document</title>
+  
+</head>
+<body>
+  <div class="bg-img">
+  <nav class="navbar">
+    <!-- <img id="nav-bg" class="nav-bg" src="pictures/Navbar.png" alt="NavBar"> -->
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img id="sylvia" class="sylvia"  src="pictures/SylVia.png" alt="Sylvia Logo">
+    </div>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">
+          <img id="account" class="account" src="pictures/Account.png" alt="User Account Icon"></a></li>
+        </a></li>
+        <li><a href="/">
+          <img id="about" class="about" src="pictures/About.png" alt="User About button"></a></li>
+        </a></li>
+        <!-- <li><a href="/">Contact</a></li> -->
+      </div>
+  </nav>
+  <div class="container" id="blur">
+    <div class="content"></div>
+    <div class="center">
+    <form id="frm" class="form">
+    <p>
+        <input id="input-text" class="input" type="text" placeholder="Enter the number">
+    </p>
+    <p>
+        <div  class="base1">
+          <select id="select1" class="base1" name="base">
+              <option value="">Base</option>
+              <option  id="bin"value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option id="dec" value="Decimal">Decimal</option>
+              <option value="Hexa-decimal">Hexa-Decimal</option>
+          </select>
+        </div>
+          <!-- <h2>TO</h2> -->
+          <i class="to">TO</i>
+          <div class="base-2">
+          <select id="select2" class="base2" name="base">
+              <option value="">Base</option>
+              <option value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option value="Decimal">Decimal</option>
+              <option value="Hexa-Decimal">Hexa-Decimal</option>
+          </select>
+          </div>
+          
+      </p>
+    <button class="convert" type="button" onclick="main()">CONVERT</button>
+    <button class="reset" type="button" onclick="myFunction()">RESET</button>
+    
+        <input type="text" id="result" class="result" placeholder="OUTPUT"/>
+        <a id="click"  class="click" href="#" onclick="toggle()">Process:</a>
+      </div>
+    </div>
+    <div id="popup">
+        <textarea name="process" id="process" class="process-box" cols="35" row="100"></textarea>
+      </div>
+    
+</form>
+</div>
+</div>
+
+<script src="front_end.js">
+</script>
+
+
+</body>
+</html>
+    
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+        
+
+</head>
+<body>
+    <form id="frm">
+    <p>
+        <input id="input-text" class="input" type="text" placeholder="Enter the number">
+    </p>
+    <p>
+        <div id="select1" class="base1">
+          <select name="base">
+              <option value="">Base</option>
+              <option  id="bin"value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option id="dec" value="Decimal">Decimal</option>
+              <option value="Hexa-decimal">Hexa-Decimal</option>
+          </select>
+        </div>
+          < <h2>TO</h2> 
+          <i class="to">TO</i>
+          <div class="base-2">
+          <select id="select2" name="base">
+              <option value="">Base</option>
+              <option value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option value="Decimal">Decimal</option>
+              <option value="Hexa-decimal">Hexa-Decimal</option>
+          </select>
+          </div>
+          
+      </p>
+    <button type="button" onclick="main()">Touch me plzz</button>
+    <input id="reset-button" type="button" onclick="myFunction()" value="Reset">
+    <p>
+        <input type="text" id="result"/>
+    </p>
+
+    <p>Process:<textarea name="process" id="process" cols="100" row="8"></textarea></p>
+
+</form>
+
+<script src="test2.js">
+</script>
+
+
+</body>
+</html>
+     -->
