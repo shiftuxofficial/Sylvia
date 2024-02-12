@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+    <script src="/public/post.js"></script>
+</head>
+<body>
+  <div class="bg-img">
+  <nav class="navbar">
+    <!-- <img id="nav-bg" class="nav-bg" src="pictures/Navbar.png" alt="NavBar"> -->
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img id="sylvia" class="sylvia"  src="pictures/SylVia.png" alt="Sylvia Logo">
+    </div>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/public/login.html">
+          <img id="account" class="account" src="pictures/Account.png" alt="User Account Icon"></a></li>
+        </a></li>
+        <li><a href="/">
+          <img id="about" class="about" src="pictures/About.png" alt="User About button"></a></li>
+        </a></li>
+        <!-- <li><a href="/">Contact</a></li> -->
+      </div>
+  </nav>
+  <div class="container" id="blur">
+    <div class="content"></div>
+    <div class="center">
+    <form id="frm" class="form">
+    <p>
+        <input id="input-text" class="input" type="text" placeholder="Enter the number">
+    </p>
+    <p>
+        <div  class="base1">
+          <select id="select1" class="base1" name="base">
+              <option value="">Base</option>
+              <option  id="bin"value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option id="dec" value="Decimal">Decimal</option>
+              <option value="Hexa-decimal">Hexa-Decimal</option>
+          </select>
+        </div>
+          <!-- <h2>TO</h2> -->
+          <i class="to">To</i>
+          <div class="base-2">
+          <select id="select2" class="base2" name="base">
+              <option value="">Base</option>
+              <option value="Binary">Binary</option>
+              <option value="Octal">Octal</option>
+              <option value="Decimal">Decimal</option>
+              <option value="Hexa-Decimal">Hexa-Decimal</option>
+          </select>
+          </div>
+          
+      </p>
+
+    
+    
+    <button class="copy" type="button" onclick="copy()">COPY</button>
+
+    <button class="convert" type="button" onclick="main()">CONVERT</button>
+    <button class="reset" type="button" onclick="myFunction()">RESET</button>
+    
+        <input type="text" id="result" class="result" placeholder="OUTPUT"/>
+        <a id="click"  class="click" href="#" onclick="toggle()">Process:</a>
+      </div>
+    </div>
+    <div id="popup">
+        <textarea name="process" id="process" class="process-box" cols="35" row="100"></textarea>
+      </div>
+    
+</form>
+</div>
+</div>
+<!-- <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js"></script> -->
+
+<script src="/public/front_end.js">
+  // Import the functions you need from the SDKs you need
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+ 
+
+</script>
+</body>
+</html>
+    
