@@ -126,3 +126,13 @@
     width: 100px;
     z-index: 1;
   }
+
+  .error{
+    position: relative;
+    bottom: 30px;
+    /* left :30px; */
+    color: red;
+    font-weight:  bold;
+    justify-content: center;
+    text-align: center;
+  }

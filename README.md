@@ -15,6 +15,6 @@
 >> Back-end:<br>
           > Coverter - **Status:** Done;<br>
           > Printing - **Status:** Done;<br>
-          > Accounts Connection - **Status** Done; <br>
+          > Accounts Connection - **Status:** Done; <br>
 
 
