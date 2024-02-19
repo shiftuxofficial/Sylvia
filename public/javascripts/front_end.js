@@ -502,7 +502,8 @@ function main(){
     var num = document.getElementById('input-text').value;
     var base1 = document.getElementById('select1').value;
     var base2 = document.getElementById('select2').value;
-
+    num = num.toUpperCase();
+    
     switch(base1){
         case 'Binary':
             base1 = 2;
