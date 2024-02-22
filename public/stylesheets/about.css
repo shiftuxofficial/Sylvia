@@ -1,0 +1,34 @@
+.bg{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    font-family: molengo; */
+  }
+
+  .picture{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left:50px
+  }
+
+  .meetus{
+    position: relative;
+    bottom: 400px;
+    left: 120px;
+    height: 50px;
+    width: 150px;
+  }
+  .shiftux{
+    position: relative;
+    right: 600px;
+    top: 170px;
+  }

@@ -25,6 +25,10 @@ app.get("/home", (req, res) => {
     res.render("home.ejs");
 })
 
+app.get("/about", (req, res) => {
+    res.render("about.ejs");
+})
+
 //Coverting Data into .json
 app.use(express.json());
 
