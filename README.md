@@ -1,6 +1,6 @@
-# Sylvia Number System Converter
+# Sylvia 
 
-Welcome to the Sylvia Number System Converter project! This tool converts numbers between different number systems (e.g., decimal, binary, hexadecimal) and demonstrates the process step-by-step, just like on paper using factorization.
+Welcome to the Sylvia, A Number System Converter project! This tool converts numbers between different number systems (e.g., decimal, binary, hexadecimal) and demonstrates the process step-by-step, just like on paper using factorization.
 
 ## Table of Contents
 
